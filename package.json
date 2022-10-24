@@ -1,0 +1,24 @@
+{
+  "name": "news-homepage",
+  "version": "1.0.0",
+  "description": "This is a solution to the News homepage challenge on Frontend Mentor.",
+  "main": "script.js",
+  "scripts": {
+    "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' css/style.css -o ./style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayakh99/news-homepage.git"
+  },
+  "author": "Aya Khalifa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ayakh99/news-homepage/issues"
+  },
+  "homepage": "https://github.com/ayakh99/news-homepage#readme",
+  "dependencies": {
+    "autoprefixer": "^10.4.12",
+    "postcss": "^8.4.18",
+    "postcss-cli": "^10.0.0"
+  }
+}
