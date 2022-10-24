@@ -31,6 +31,7 @@ body {
   font-family: var(--ff-body);
   font-size: var(--fs-body);
   color: var(--neutral-400);
+  background-color: var(--neutral-100);
 }
 
 a {
@@ -43,7 +44,6 @@ ul {
 }
 
 .container {
-  background-color: var(--neutral-100);
   width: 100%;
   max-width: 114.2rem;
   padding-inline: 1.6rem;
@@ -244,6 +244,10 @@ ul {
 }
 
 @media screen and (min-width: 48em) {
+  .container {
+    padding-block: 8rem;
+  }
+
   .grid {
     grid-template-columns: repeat(3, 1fr);
     gap: 7rem 3rem;
