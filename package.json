@@ -16,7 +16,7 @@
     "url": "https://github.com/ayakh99/news-homepage/issues"
   },
   "homepage": "https://github.com/ayakh99/news-homepage#readme",
-  "dependencies": {
+  "devDependencies": {
     "autoprefixer": "^10.4.12",
     "postcss": "^8.4.18",
     "postcss-cli": "^10.0.0"
